@@ -1,0 +1,30 @@
+
+
+.container{
+    display:flex;
+    flex-direction: column;
+    background-color: #f9eadd;
+    justify-content: center;
+    height: 83%;
+}
+.elements{
+    text-align: center;
+    margin:40px;
+    padding: 25px;
+}
+.user-name{
+    margin-top: 50px;
+    font-size: 60px; 
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;  
+}
+.user-email{
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+.button{
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color:#A27B5C;
+    font-family: 'Raleway', sans-serif;
+}

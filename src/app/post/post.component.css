@@ -1,0 +1,60 @@
+.user-post{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #DCD7C9;
+    font-family: 'Raleway', sans-serif;
+}
+.post-items{
+    margin: 10px 10px;
+ 
+}
+
+.user-name{
+    
+    padding:0 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #A27B5C;
+}
+
+.post-title{
+    
+    font-weight: 500;
+    font-size: 25px;
+}
+.post-discription{
+    background-color: #ebe5d6;
+    padding: 15px ;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    border-radius: 10px;
+}
+.post-comments{
+    font-size: 22px;
+    font-weight: 300;
+}
+.post-top-comment{
+    display: flex;
+    align-items: center;
+}
+.comment-name{
+    padding:0 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #A27B5C;
+}
+.comment-discription{
+    background-color: #ebe5d6;
+    padding: 15px ;
+    margin:0 10px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    border-radius: 10px;
+    line-height: 1.5;
+    
+}

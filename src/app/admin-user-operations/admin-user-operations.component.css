@@ -1,0 +1,20 @@
+.container{
+    width:80%;
+    text-align: center;
+    margin:auto;
+}
+table{
+    margin: auto;
+}
+th , td{
+    width:24%;
+    border: 1px solid black;
+    padding:10px 40px;
+    font-size: 20px;
+}
+td button{
+    font-size: 20px;
+    border-radius: 20px;
+    padding:10px 40px;
+    background-color: #eab285;
+}

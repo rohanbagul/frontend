@@ -1,0 +1,24 @@
+<div class="generate-post">
+    <div class="card">
+        <h3 class="heading">Post Question</h3>
+        <form #postForm="ngForm" (ngSubmit)="doSubmitPost(postForm.value)">
+            
+            <mat-form-field class="example-full-width field" appearance="outline">
+                <mat-label>Subject of your Question</mat-label>
+                <input matInput required #name="ngModel" placeholder="Ex. Spring boot vs Node.js" value="" name="subject" ngModel>
+            </mat-form-field>
+            <br><span *ngIf="name.invalid && name.touched">Invalid subject</span><br>
+            <mat-form-field class="example-full-width field" appearance="fill">
+                <mat-label>Leave a question</mat-label>
+                <textarea rows="25" required matInput placeholder="Ex. What are the main difference ....." name="description" ngModel></textarea>
+            </mat-form-field>
+            <div class="form-buttons">
+                <button type="submit" mat-raised-button color="primary" class="form-button">Submit</button>
+                <button type="reset" mat-raised-button color="primary" class="form-button">Reset</button>
+
+            </div>
+            <!-- <input type="text" name="subject" placeholder="java vs javascript">
+            <button type="submit">submit</button> -->
+        </form>
+    </div>
+</div>

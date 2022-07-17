@@ -1,0 +1,29 @@
+.sub-navbar{
+    height:7%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    color: #ebe5d6;
+    background-color: #3F4E4F;
+}
+.sub-part-1 ,.sub-part-2{
+    display: flex;
+}
+
+.nav-buttons{
+    margin:10px;
+    padding:0 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #A27B5C;
+}
+.router-buttons{
+    background-color: inherit;
+    color: white;
+    border:none;
+    font-size: 20px;
+    margin:10px;
+    padding:0 20px;
+    font-family: 'Raleway', sans-serif;
+}

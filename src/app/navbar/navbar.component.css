@@ -1,0 +1,13 @@
+.navbar-nav{
+    background-color: #2C3639;
+    height:10%;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    color:#ebe5d6;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 30px;
+    /* font-stretch: 150%; */
+}

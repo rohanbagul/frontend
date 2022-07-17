@@ -1,0 +1,17 @@
+<div class="container">
+  <table>
+      <tr>
+          <th>User Name</th>
+          <th>Email</th>
+          <th>Updata</th>
+          <th>Delete</th>
+      </tr>
+      <tr *ngFor="let user of users">
+          <!-- use ngfor for dynamic loading, contact ankit -->
+          <td>{{user.username}}</td>
+          <td>{{user.email}}</td>
+          <td><button>Modify</button></td>
+          <td><button>Delete</button></td>
+      </tr>
+  </table>
+</div>

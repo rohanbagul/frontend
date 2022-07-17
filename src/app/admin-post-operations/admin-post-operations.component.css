@@ -1,0 +1,33 @@
+.container{
+  width:90%;
+  text-align: center;
+  margin:auto;
+}
+table{
+  margin: auto;
+}
+th , td{
+  /* width:24%; */
+  border: 1px solid black;
+  padding:5px 30px;
+  font-size: 16px;
+}
+td button{
+  font-size: 20px;
+  border-radius: 20px;
+  padding:5px 40px;
+  background-color: #eab285;
+}
+.subject{
+  width: 30%;
+  font-size: 16px;
+  text-align: justify;
+  font-weight: 400;
+}
+.description{
+  width:40%;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+
+}

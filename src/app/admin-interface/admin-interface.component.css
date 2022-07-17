@@ -1,0 +1,50 @@
+.admin-panel{
+    font-family: 'Raleway', sans-serif;
+    background-color: #f9eadd;
+    height: 90%;
+}
+.admin-welcome{
+    margin:0 25px;
+    padding:60px 0;
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+.admin-roles-list{
+    margin:55px 25px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.admin-roles{
+    display: flex;
+    justify-content: space-evenly;
+    margin:40px;
+}
+.admin-role{
+    margin:40px;
+    padding: 10px 20px;
+    width:30%;
+    height:300px;
+    background-color: #DCD7C9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.role-heading{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.role-description{
+    font-size: 20px;
+    background-color: #ebe5d6;
+    padding:20px;
+    font-family: 'Raleway', sans-serif;
+}
+.role-button{
+    font-size: 23px;
+    padding: 10px 50px;
+    background-color: #A27B5C;
+    border-radius: 20px;
+}

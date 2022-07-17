@@ -1,0 +1,28 @@
+<!-- <app-sub-navbar></app-sub-navbar> -->
+<div class="sub-navbar">
+    <div class="sub-part-1">
+        <div class="nav-links user-name">
+            <button class="router-buttons" (click)="showHome()">Home</button>
+
+        </div>
+        <div class="nav-links profile">
+            <!-- <a routerLink="userprofile">profile</a> -->
+            <button class="router-buttons" (click)="showProfile()">profile</button>
+        </div>
+        <div class="nav-links my-post">
+            <button class="router-buttons" (click)="showPost()">Post</button>
+        </div>
+    </div>
+    <div class="sub-part-2">
+        <button mat-raised-button color="primary" class="nav-buttons compose-post" (click)="generatePost()">Compose</button>
+        <button mat-raised-button color="primary" class="nav-buttons log-out">Log Out</button>
+    </div>
+
+</div>
+
+
+<!-- <app-user-profile></app-user-profile> -->
+<!-- <app-generate-post></app-generate-post> -->
+<!-- <a routerLink="userprofile">profile</a> -->
+
+<router-outlet></router-outlet>

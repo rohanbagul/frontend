@@ -1,0 +1,16 @@
+<div class="container">
+  <table>
+      <tr>
+          <th>Title</th>
+          <th>description</th>
+          <th>Delete</th>
+      </tr>
+          <!-- use ngfor for dynamic loading, contact ankit -->
+      <tr *ngFor=" let post of allPost">
+          <th class="subject">{{post.title}}</th>
+          <th class="description">{{post.description}</th>
+          <td><button>Validata</button></td>
+          <td><button>Delete</button></td>
+      </tr>
+  </table>
+</div>
